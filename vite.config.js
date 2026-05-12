@@ -22,8 +22,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'pages/about.html'),
-        contact: resolve(__dirname, 'pages/contact.html'),
+        about: resolve(__dirname, 'src/pages/about/about.html'),
+        contact: resolve(__dirname, 'src/pages/contact/contact.html'),
       },
     },
   },
